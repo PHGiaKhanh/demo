@@ -1,0 +1,939 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/MasterLayout.cshtml";
+}
+<title>Home</title>
+<link href="~/CSS/Home.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="~/JS/Home.js"></script>
+<title>@ViewBag.Title</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="~/CSS/Home.css?v= <?php echo time();?>" rel="stylesheet" />
+<section class="slider">
+    <div class="container">
+        <div class="slider-content">
+            <div class="slider-content-left">
+                <div class="slider-content-left-top-container">
+                    <div class="slider-content-left-top">
+                        <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/12/638327305433176966_F-H1_800x300.png" alt="" /></a>
+                        <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/10/638325495495742417_F-H1_800x300.png" alt="" /></a>
+                        <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/6/638322019146737375_H1_800x300.png" alt="" /></a>
+                        <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/5/638321277849385130_F-H1_800x300.png" alt="" /></a>
+                        <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/11/638326350144248789_F-H1_800x300.png" alt="" /></a>
+
+                    </div>
+                    <div class="slider-content-left-top-btn">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="slider-content-left-bottom">
+                    <ul style="margin-top:0">
+                        <li class="active">S23 Ultra giá hủy diệt 19.99 tr</li>
+                        <li>iPhone 15 Pro Max Sẵn hàng</li>
+                        <li>Nồi cơm điện chỉ từ 390.000đ</li>
+                        <li>HONOR X8a giá cực sốc 3.990.000đ</li>
+                        <li>Reno8T giá sốc chỉ từ 6.990.000đ</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slider-content-right">
+                <div class=" slider-content-right-top">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/385x100/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/13/638328162818690919_F-H2_385x100%20(1).png" alt="" />
+                    <img src="https://images.fpt.shop/unsafe/fit-in/385x100/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/11/638326123866148840_H2_385x100.png" alt="" />
+                </div>
+                <div class="slider-content-right-bottom">
+                    <ul>
+                        <p style="margin-top:0">Tin khuyến mãi</p>
+                        <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/70x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/images/2015/PhuongMT5/140x80(2).png" alt="" />FPT Shop giảm ngay 250K qua VNPAY-QR</a></li>
+                        <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/70x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/images/2015/PhuongMT5/70x40(1).png" alt="" />Đổi Phone 2G lấy Galaxy A05 giẩm 300K</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="iconbar">
+    <div class="container">
+        <div class="iconbar-list">
+            <ul>
+                <li><a href="https://localhost:44312/Category/Index"><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-dienthoai-desktop.png" alt="" /><div class="inside">Điện thoại</div></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-laptop.png" alt="" /><div class="inside">Laptop</div></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-pc.png" alt="" /><div class="inside">PC</div></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/icon-mtb-desk.png" alt="" /><div class="inside">Máy tính bảng</div></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-smart.png" alt="" /><div class="inside">Thiết bị thông minh</div></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-houseware.png" alt="" /><div class="inside">Gia dụng</div></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-apple-desktop.png" alt="" /><div class="inside">Apple</div></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/destop-ic-samsung.png" alt="" /><div class="inside">Samsung</div></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-smartwatch.png" alt="" /><div class="inside">Đồng hồ thông minh</div></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-accessories.png" alt="" /><div class="inside">Phụ kiện</div></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-screen.png" alt="" /><div class="inside">Màn hình</div></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-tcdm.png" alt="" /><div class="inside">Máy cũ</div></a></li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+@*<section class="tapimg">
+        <div class="container">
+            <div class="tapimg-content">
+                <ul style="margin-bottom:0">
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-dienthoai-desktop.png" alt="" /><div class="inside">Điện thoại</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-laptop.png" alt="" /><div class="inside">Laptop</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-pc.png" alt="" /><div class="inside">PC</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/icon-mtb-desk.png" alt="" /><div class="inside">Máy tính bảng</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-smart.png" alt="" /><div class="inside">Thiết bị thông minh</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2022/iconcate/icon-houseware.png" alt="" /><div class="inside">Gia dụng</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-apple-desktop.png" alt="" /><div class="inside">Apple</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-apple-desktop.png" alt="" /><div class="inside">Apple</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-apple-desktop.png" alt="" /><div class="inside">Apple</div></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </section>*@
+@*<section class="tapimg1">
+        <div class="container">
+            <div class="tapimg-content1">
+                <ul style="margin-top:0">
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-dienthoai-desktop.png" alt="" /><div class="inside">Điện thoại</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-dienthoai-desktop.png" alt="" /><div class="inside">Điện thoại</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-dienthoai-desktop.png" alt="" /><div class="inside">Điện thoại</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-dienthoai-desktop.png" alt="" /><div class="inside">Điện thoại</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-dienthoai-desktop.png" alt="" /><div class="inside">Điện thoại</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-dienthoai-desktop.png" alt="" /><div class="inside">Điện thoại</div></a></li>
+                    <li> <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/60x60/filters:quality(90):fill(transparent)/fptshop.com.vn/Uploads/images/2015/ic-dienthoai-desktop.png" alt="" /><div class="inside">Điện thoại</div></a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </section>*@
+
+<section class="banner-one">
+    <div class="container">
+        <img style="width:100%" src="https://images.fpt.shop/unsafe/fit-in/1200x100/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/8/31/638291070880412190_H7_1200x100.png" alt="" />
+    </div>
+</section>
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+            <div class="slider-product-one-content-title">
+                <h2>Khuyến mãi hot</h2>
+            </div>
+            <div class="slider-product-one-content-container">
+                <div class="slider-product-one-content-items-content">
+                    <div class="slider-product-one-content-items">
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107858632184994_iphone-14-pro-dd-1.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/31/638158962810512367_ss-galaxy-s22-dd-icon.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/24/638152739283440892_xiaomi-redmi-note-12-dd-bh.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/4/19/638175165816785780_asus-tuf-gaming-fx506hf-den-dd-moi.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/27/638155148198300095_oppo-reno8-t-4g-dd.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-product-one-content-items">
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/19/638017838320777050_samsung-galaxy-a23-5g-xanh-dd.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/7/638137864184249502_msi-gaming-gf63-thin-11uc-den-dd.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/6/23/637600624151060261_xiaomi-smart-fan-2-lite-pyv4007gl-trang-dd.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/27/638077464716237011_pc-e-power-office-19-den-dd.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/5/638058599115554507_may-hut-bui-cam-tay-xiaomi-vacuum-cleaner-mini-dd.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-product-one-content-items">
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/5/638188828261523251_gigabyte-gaming-g5-kf-e3vn313sh-i5-12500h-den-dd.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107858632184994_iphone-14-pro-dd-1.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/6/13/638222661357519861_600-P1-55.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/20/638018700298075854_lenovo-gaming-legion-5-15arh7-xam-dam-dd.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/21/638150119693895777_realme-c55-dd.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider-product-one-content-btn">
+                    <i class="fa-solid fa-circle-arrow-left fa-circle-arrow-right-k"></i>
+                    <i class="fa-solid fa-circle-arrow-right fa-circle-arrow-left-k"></i>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="banner-two">
+    <div class="container">
+        <div class="banner-two-content">
+            <ul class="banner-two-content-list">
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/12/638327011225974215_item.png" alt="" /></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/12/638327011227536753_item-1.png" alt="" /></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/12/638327011226130467_item-2.png" alt="" /></a></li>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/12/638327011227380505_item-3.png" alt="" /></a></li>
+            </ul>
+            <div class="banner-two-content-3">
+                <div class="banner-two-content-3-img">
+                    <ul>
+                        <li><a href=""><img src="https://images.fpt.shop/unsafe/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/28/638315412186192831_button.png" alt="" /></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="banner-three">
+    <div class="container">
+        <div class="banner-three-img">
+            <a href="">  <img src="https://images.fpt.shop/unsafe/fit-in/1200x200/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/7/638322836375130709_H5-1200x200.png" alt="" /></a>
+        </div>
+    </div>
+
+</section>
+
+  <!..........................product gallery................................>
+<section class="product-gallery-one">
+    <div class="container">
+        <div class="product-gallery-one-content">
+            <div class="product-gallery-one-content-tittle">
+                <h2>ĐIỆN THOẠI NỔI BẬT NHẤT</h2>
+                <ul>
+                    <li><a href="">Xem tất cả</a></li>
+                </ul>
+            </div>
+            <div class="product-gallery-one-content-product">
+                <div class="product-gallery-one-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/19/638253719457391276_oppo-reno10-5g-xanh-5.jpg" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/23/638336513272222519_samsung-galaxy-a05s-bac-dd.jpg" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/4/3/638161092136822060_xiaomi-redmi-10-2022-dd-docquyen.jpg" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/7/5/638241722578403987_samsung-galaxy-a34-dd.jpg" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/6/30/638237370001190590_honor-x8-dd-docquyen.jpg" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/23/638151666817188867_realme-c30s-dd.jpg" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/6/30/638237370001190590_honor-x8-dd-docquyen.jpg" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="banner-4">
+    <div class="container">
+        <div class="banner-4-list">
+            <ul>
+                <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/1200x200/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/8/31/638291076856319407_H5.png" alt="" /></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+</section>
+<section class="product-gallery-two">
+    <div class="container">
+        <div class="product-gallery-two-content">
+            <div class="product-gallery-two-content-tittle">
+                <h2>LAPTOP BÁN CHẠY</h2>
+                <ul>
+                    <li><a href="">Xem tất cả</a></li>
+                </ul>
+            </div>
+            <div class="product-gallery-two-content-product">
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                @*<div class="product-gallery-one-content-product-item">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" />
+                        <div class="product-gallery-one-content-product-item-list">
+                            <ul>
+                                <li>Iphone 14 pro 128GB</li>
+                                <li>23.790.000<sub>đ</sub></li>
+                                <li><a href="">27.990.000<sub>d</sub></a></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>*@
+                @*<div class="product-gallery-one-content-product-item">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" />
+                        <div class="product-gallery-one-content-product-item-list">
+                            <ul>
+                                <li>Iphone 14 pro 128GB</li>
+                                <li>23.790.000<sub>đ</sub></li>
+                                <li><a href="">27.990.000<sub>d</sub></a></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>*@
+                @*<div class="product-gallery-one-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" />
+                    <div class="product-gallery-one-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>*@
+                @*</div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" />
+                        <div class="product-gallery-one-content-product-item-list">
+                            <ul>
+                                <li>Iphone 14 pro 128GB</li>
+                                <li>23.790.000<sub>đ</sub></li>
+                                <li><a href="">27.990.000<sub>d</sub></a></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>*@
+                @*<div class="product-gallery-one-content-product-item">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" />
+                        <div class="product-gallery-one-content-product-item-list">
+                            <ul>
+                                <li>Iphone 14 pro 128GB</li>
+                                <li>23.790.000<sub>đ</sub></li>
+                                <li><a href="">27.990.000<sub>d</sub></a></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>*@
+                @*<div class="product-gallery-one-content-product-item">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" />
+                        <div class="product-gallery-one-content-product-item-list">
+                            <ul>
+                                <li>Iphone 14 pro 128GB</li>
+                                <li>23.790.000<sub>đ</sub></li>
+                                <li><a href="">27.990.000<sub>d</sub></a></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>*@
+                @*<div class="product-gallery-one-content-product-item">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" />
+                        <div class="product-gallery-one-content-product-item-list">
+                            <ul>
+                                <li>Iphone 14 pro 128GB</li>
+                                <li>23.790.000<sub>đ</sub></li>
+                                <li><a href="">27.990.000<sub>d</sub></a></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>*@
+                @*<div class="product-gallery-one-content-product-item">
+
+                        <div class="product-gallery-one-content-product-item-list">
+                            <ul>
+                                <li>Iphone 14 pro 128GB</li>
+                                <li>23.790.000<sub>đ</sub></li>
+                                <li><a href="">27.990.000<sub>d</sub></a></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>*@
+                @*<div class="product-gallery-one-content-product-item">
+                        <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" />
+                        <div class="product-gallery-one-content-product-item-list">
+                            <ul>
+                                <li>Iphone 14 pro 128GB</li>
+                                <li>23.790.000<sub>đ</sub></li>
+                                <li><a href="">27.990.000<sub>d</sub></a></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>*@
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="banner-5">
+    <div class="container">
+        <div class="banner-5-list">
+            <ul>
+                <li>
+                    <a href=""><img src="https://images.fpt.shop/unsafe/fit-in/1200x200/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/30/638317084560547430_F-H5_1200x200.png" alt="" /> ></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+  <!...................product-6..........>
+<section class="product-gallery-three">
+    <div class="container">
+        <div class="product-gallery-three-content">
+            <div class="product-gallery-two-content-tittle">
+                <h2>TABLET BÁN CHẠY</h2>
+                <ul>
+                    <li><a href="">Xem tất cả</a></li>
+                </ul>
+            </div>
+            <div class="product-gallery-three-content-product">
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-three-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-three-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-three-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-three-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-three-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-three-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-three-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-three-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-three-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-gallery-two-content-product-item">
+                    <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/14/638302786719525352_ip-15-pro-max-dd.jpg" alt="" />
+                    <div class="product-gallery-three-content-product-item-list">
+                        <ul>
+                            <li>Iphone 14 pro 128GB</li>
+                            <li>23.790.000<sub>đ</sub></li>
+                            <li><a href="">27.990.000<sub>d</sub></a></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                            <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <!...........sliderr-2........>
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+            <div class="slider-product-one-content-title">
+                <h2>Khuyến mãi hot</h2>
+            </div>
+            <div class="slider-product-one-content-container">
+                <div class="slider-product-one-content-items-content">
+                    <div class="slider-product-one-content-items">
+                        <div class="slider-product-one-content-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107858632184994_iphone-14-pro-dd-1.jpg" />
+                            <div class="slider-product-one-content-item-text">
+                                <ul>
+                                    <li>Iphone 14 pro 128GB</li>
+                                    <li>23.790.000<sub>đ</sub></li>
+                                    <li><a href="">27.990.000<sub>d</sub></a></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/t%E1%BA%A3i%20xu%E1%BB%91ng-1695965883711.png" alt=""></li>
+                                    <li><img src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
